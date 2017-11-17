@@ -1,6 +1,6 @@
 #linux-lab
->ผู้พัฒนาโครงการ KITTISAK MANEEWONG
->รหัสนักศึกษา 59110440046
+>ผู้พัฒนาโครงการ KITTIPONG MANEEWONG
+>รหัสนักศึกษา 59110440039
 
 #จุดประสงค์
 >ฝึกใช้ python ทำ CLI โปรเเกรม ตามแบบ githubavatar
