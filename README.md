@@ -13,17 +13,26 @@
 
 #  วิธีใช้ 
 1.  ก่อนอื่นให้ติดตั้ง lxml
-> sudo apt-get install python-lxml
+```sh
+sudo apt-get install python-lxml
+```
 2. เริ่มใช้งานโปรแกรม ให้ clone project 
-> git clone https://github.com/Kittipong59110440039/linux-lab.git
-> cd getChord
+```sh
+git clone https://github.com/Kittipong59110440039/linux-lab.git
+cd getChord
+```sh
 3. ติดตั้ง package ที่จำเป็น
->pip install --user click requests Pillow
+```sh
+pip install --user click requests Pillow
+```
 4. ติดตั้ง
-> pip install --user .
+```sh
+pip install --user .
+```
 5. รัน ทดสอบโปรแกรม
-> getChord  test
+```sh
+getChord  test
 *** test  คือ ให้พิมพ์เพลงที่ต้องการค้นหา เช่น  getChord ทดเวลาบาดเจ็บ
-> Let Go
+```
 
 # END 
