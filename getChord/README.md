@@ -3,19 +3,17 @@
 Get Chord Guitar
 
 
-# Installation
-
-If you don't use `pipsi`, you're missing out.
-Here are [installation instructions](https://github.com/mitsuhiko/pipsi#readme).
-
-Simply run:
-
-    $ pipsi install .
-
+# Simply run:
+```sh
+    $ pip install --user .
+```
 
 # Usage
 
 To use it:
-
+```sh  
     $ getChord --help
+```
+   *** test  คือ ให้พิมพ์เพลงที่ต้องการค้นหา เช่น  getChord ทดเวลาบาดเจ็บ
+
 
