@@ -20,7 +20,7 @@ sudo apt-get install python-lxml
 ```sh
 git clone https://github.com/Kittipong59110440039/linux-lab.git
 cd getChord
-```sh
+```
 3. ติดตั้ง package ที่จำเป็น
 ```sh
 pip install --user click requests Pillow
