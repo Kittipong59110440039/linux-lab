@@ -16,7 +16,7 @@
 ```sh
 sudo apt-get install python-lxml
 sudo pip install lxml
-sudo pip install BeautifulSoup4
+sudo pip install BeautifulSoup4  
 ```
 2. เริ่มใช้งานโปรแกรม ให้ clone project 
 ```sh
