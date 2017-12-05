@@ -6,7 +6,7 @@ from StringIO import StringIO
 from bs4 import BeautifulSoup
 
 @click.command()
-@click.argument('src', nargs=-1)
+@click.argument('src', nargs=-1)   
 @click.argument('dst', nargs=1)
 def main(src, dst):
     	"""Get Chord Guitar"""
@@ -22,6 +22,6 @@ def main(src, dst):
 	b=BeautifulSoup(src.content,'html.parser')
 	photo_chord=b.find_all('div',{'id':'contentboxarticle1'})[0].img['src']
 	req=requests.get("https://www.guitarthai.com"+photo_chord)
-	img=Image.open(StringIO(req.content))
+	img=Image.open(StringIO(req.content))  
 	img.show()
 	

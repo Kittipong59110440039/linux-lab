@@ -14,9 +14,8 @@
 #  วิธีใช้ 
 1.  ก่อนอื่นให้ติดตั้ง lxml
 ```sh
-sudo apt-get install python-lxml
-sudo pip install lxml
-sudo pip install BeautifulSoup4  
+ sudo apt-get install python-lxml , (sudo) pip install lxml
+(sudo) pip install BeautifulSoup4  
 ```
 2. เริ่มใช้งานโปรแกรม ให้ clone project 
 ```sh
